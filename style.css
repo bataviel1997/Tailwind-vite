@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply w-screen min-h-screen flex flex-col p-8
+    bg-slate-100
+  }
+
+  .section-title{
+    @apply text-4xl font-light text-orange-400
+  }
+
+  .auth{
+    @apply w-screen h-screen flex flex-col justify-center
+    items-center bg-gradient-to-tr from-orange-500 to-orange-200
+  }
+
+  .auth-from{
+    @apply p-4 flex flex-col gap-4 bg-slate-50 rounded-lg shadow-xl
+    w-[300px]
+  }
+
+  .auth-from h1 {
+    @apply text-center text-2xl font-semibold
+  }
+
+  .from-group{
+    @apply flex flex-col gap-1 font-light
+  }
+
+  .from-group label {
+    @apply text-slate-900
+  }
+
+  .from-group input {
+    @apply h-12 px-2 font-light border-[1px] rounded-lg
+  }
+
+  .auth-from button {
+    @apply h-12 bg-blue-500 text-white rounded-lg
+  }
+
+
+
+
+}
