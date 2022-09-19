@@ -6,7 +6,7 @@ export default function Home(){
         
         <from class="auth-from">
 
-        <h1>Login Page</h1>
+        <h1>Login </h1>
             <div class="from-group">
                 <label>Email</label>
                 <input type="email" id="email" required/>
